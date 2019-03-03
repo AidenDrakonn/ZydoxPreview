@@ -1,0 +1,8 @@
+name: ZydoxPreview
+main: me.drakonn.zydoxpreview.ZydoxPreview
+version: 1.0
+author: [Drakonn]
+commands:
+  kitpreview:
+    aliases: [kp]
+    description: Open kit preview gui

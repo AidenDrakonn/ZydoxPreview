@@ -1,0 +1,159 @@
+maingui:
+  name: 'Kit Gui'
+  size: 54
+  fillitem:
+    name: ''
+    material: STAINED_GLASS_PANE:3
+    enchanted: false
+
+setblocks:
+
+settings:
+  backitem:
+    name: '&cBack'
+    material: BARRIER
+    lore:
+      - '&fGo back to main gui'
+    enchanted: false
+  messages:
+    kitnotfound: '&8[&aKitPreview&8] &fCan not find specified kit, please try again'
+    nopermission: '&8[&aKitPreview&8] &cYou do not have permission to do that'
+
+
+kits:
+  warlord:
+    backinvslot: 45
+    invsize: 54
+    invslot: 1
+    iconitem:
+      name: '&9&lWarlord Kit'
+      material: DIAMOND_CHESTPLATE
+      lore:
+        - '&fClick to view the contents of the warlord kit'
+      enchanted: true
+    fillitem:
+      name: ''
+      material: STAINED_GLASS_PANE:5
+      enchanted: false
+    contents:
+      helmet:
+        invslot: 5
+        item:
+          name: '&9&lstuff'
+          material: DIAMOND_HELMET
+          lore:
+            - '&fmemes'
+            - '&bmore memes'
+          enchantments:
+            - 'protection:1'
+            - 'thorns:2'
+      chestplate:
+        invslot: 4
+        item:
+          name: '&9&lA name'
+          material: DIAMOND_CHESTPLATE
+          lore:
+            - '&fsome rando lore'
+          enchantments:
+            - 'protection:1'
+            - 'thorns:2'
+      leggings:
+        invslot: 3
+        item:
+          name: '&9&lPaintball Gun &8(Right Click)'
+          material: STICK
+          lore:
+            - '&fmemes'
+            - '&bmore memes'
+          enchantments:
+            - 'protection:1'
+            - 'thorns:2'
+      boots:
+        invslot: 2
+        item:
+          name: '&2&lRandom'
+          material: STICK
+          lore:
+            - '&fmemes'
+            - '&bmore memes'
+          enchantments:
+            - 'protection:1'
+            - 'thorns:2'
+      sword:
+        invslot: 1
+        item:
+          name: '&9&lstuff'
+          material: DIAMOND_SWORD
+          lore:
+            - '&fother stuff'
+          enchantments:
+            - 'sharpness:1'
+            - 'fireaspect:2'
+  champion:
+    backinvslot: 18
+    invsize: 27
+    invslot: 0
+    iconitem:
+      name: '&a&lChampion Kit'
+      material: DIAMOND_SWORD
+      lore:
+        - '&fClick to view the contents of the champion kit'
+      enchanted: true
+    fillitem:
+      name: ''
+      material: STAINED_GLASS_PANE:7
+      enchanted: false
+    contents:
+      helmet:
+        invslot: 2
+        item:
+          name: '&9&lstuff'
+          material: DIAMOND_HELMET
+          lore:
+            - '&fmemes'
+            - '&bmore memes'
+          enchantments:
+            - 'protection:1'
+            - 'thorns:2'
+      chestplate:
+        invslot: 3
+        item:
+          name: '&9&lA name'
+          material: DIAMOND_CHESTPLATE
+          lore:
+            - '&fsome rando lore'
+          enchantments:
+            - 'protection:1'
+            - 'thorns:2'
+      leggings:
+        invslot: 4
+        item:
+          name: '&9&lPaintball Gun &8(Right Click)'
+          material: STICK
+          lore:
+            - '&fmemes'
+            - '&bmore memes'
+          enchantments:
+            - 'protection:1'
+            - 'thorns:2'
+      boots:
+        invslot: 5
+        item:
+          name: '&2&lRandom'
+          material: STICK
+          lore:
+            - '&fmemes'
+            - '&bmore memes'
+          enchantments:
+            - 'protection:1'
+            - 'thorns:2'
+      sword:
+        invslot: 6
+        item:
+          name: '&9&lstuff'
+          material: DIAMOND_SWORD
+          lore:
+            - '&fother stuff'
+          enchantments:
+            - 'sharpness:1'
+            - 'fireaspect:2'
